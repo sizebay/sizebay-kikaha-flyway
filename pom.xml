@@ -12,7 +12,22 @@
 	<artifactId>sizebay-kikaha-flywaydb</artifactId>
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
-	<name>${project.artifactId}</name>
+
+	<name>kikaha: Flyway support</name>
+	<description>Flyway support for Kikaha</description>
+	<url></url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>http://svn.apache.org/viewvc/maven</url>
+	</scm>
 
 	<properties>
 		<!-- project configurations -->
