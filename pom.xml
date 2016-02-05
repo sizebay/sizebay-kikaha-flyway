@@ -26,7 +26,7 @@
 	</licenses>
 
 	<scm>
-		<url>http://svn.apache.org/viewvc/maven</url>
+		<url>git@github.com:sizebay/sizebay-kikaha-flyway.git</url>
 	</scm>
 
 	<properties>
