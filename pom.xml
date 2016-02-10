@@ -4,7 +4,7 @@
 
 	<parent>
 		<groupId>io.skullabs.kikaha</groupId>
-		<version>1.6.1</version>
+		<version>1.6.2</version>
 		<artifactId>kikaha-project</artifactId>
 	</parent>
 
@@ -15,7 +15,7 @@
 
 	<name>kikaha: Flyway support</name>
 	<description>Flyway support for Kikaha</description>
-	<url></url>
+	<url>https://github.com/sizebay/sizebay-kikaha-flyway</url>
 
 	<licenses>
 		<license>
