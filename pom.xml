@@ -4,13 +4,13 @@
 
 	<parent>
 		<groupId>io.skullabs.kikaha</groupId>
-		<version>1.6.2</version>
+		<version>2.0.0-SNAPSHOT</version>
 		<artifactId>kikaha-project</artifactId>
 	</parent>
 
 	<groupId>com.sizebay.kikaha</groupId>
 	<artifactId>sizebay-kikaha-flywaydb</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<packaging>jar</packaging>
 
 	<name>kikaha: Flyway support</name>
@@ -38,7 +38,7 @@
 		<config.dir.output>output</config.dir.output>
 		<config.dir.web>webapp</config.dir.web>
 		<!-- dependencies version configuration -->
-    <version.flywaydb>3.2.1</version.flywaydb>
+		<version.flywaydb>3.2.1</version.flywaydb>
 	</properties>
 
 	<dependencies>
@@ -49,18 +49,14 @@
 		</dependency>
 		<dependency>
 			<groupId>io.skullabs.kikaha</groupId>
-			<artifactId>kikaha-jsr-330</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.skullabs.kikaha</groupId>
 			<artifactId>kikaha-db</artifactId>
 		</dependency>
-    <!-- Other Dependencies -->
-    <dependency>
-      <groupId>org.flywaydb</groupId>
-      <artifactId>flyway-core</artifactId>
-      <version>${version.flywaydb}</version>
-    </dependency>
+		<!-- Other Dependencies -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>${version.flywaydb}</version>
+		</dependency>
 	</dependencies>
 
 </project>

@@ -6,12 +6,11 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import javax.sql.DataSource;
 
+import kikaha.config.Config;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 
 import org.flywaydb.core.Flyway;
-
-import com.typesafe.config.Config;
 
 @Slf4j
 @Singleton
